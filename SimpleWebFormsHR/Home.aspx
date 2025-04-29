@@ -9,7 +9,7 @@
         <br/><br/>
 
         <div class="gridview">
-            <asp:GridView ID="grdviewmain" runat="server" Width="95%" AutoGenerateColoums="False">
+            <asp:GridView ID="grdviewmain" runat="server" Width="95%" AutoGenerateColumns="False">
                 <columns>
                     <asp:BoundField DataField="Name" HeaderText="Name" />
                     <asp:BoundField DataField="Address" HeaderText="Address" />

@@ -15,6 +15,15 @@ namespace SimpleWebFormsHR
     {
 
         /// <summary>
+        /// lblerror control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblerror;
+
+        /// <summary>
         /// txtName control.
         /// </summary>
         /// <remarks>
@@ -184,5 +193,14 @@ namespace SimpleWebFormsHR
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnclear;
+
+        /// <summary>
+        /// grdemployee control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView grdemployee;
     }
 }
