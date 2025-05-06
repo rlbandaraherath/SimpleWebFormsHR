@@ -4,12 +4,12 @@
 
     <div class="main">
         <div class="Header">
-            <h1 style="text-align:center">Employee Details</h1>
+            <h1 class="text-primary  text-center  display-4  my-4">Employee Details</h1>
             </div>
         <br/><br/>
 
         <div class="gridview">
-            <asp:GridView ID="grdviewmain" runat="server" Width="95%" AutoGenerateColumns="False">
+            <asp:GridView ID="grdviewmain" runat="server" Width="95%" AutoGenerateColumns="False" CssClass="table table-bordered  table-hover table-primary ">
                 <columns>
                     <asp:BoundField DataField="Name" HeaderText="Name" />
                     <asp:BoundField DataField="Address" HeaderText="Address" />
