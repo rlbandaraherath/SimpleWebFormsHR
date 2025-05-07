@@ -14,9 +14,9 @@
         </div>
         <div class="row form1">
 
-            <div class="col-lg-3">
-                <asp:Label ID="lblyear" runat="server" Text="Year : " />
-                <asp:TextBox ID="txtyear" runat="server" />
+            <div class="col-lg-5">
+                <asp:Label ID="lblyear" runat="server" Text="Year : " CssClass="form-label" />
+                <asp:TextBox ID="txtyear" runat="server"  CssClass="form-control" />
             </div>
 
 
@@ -26,12 +26,12 @@
             </div>   -->
 
             <div class="col-lg-3">
-                <asp:Button ID="btnload" runat="server" Text="Load Data" OnClick="btnloadClicked" />
+                <asp:Button ID="btnload" runat="server" Text="Load Data" OnClick="btnloadClicked" CssClass="btn btn-primary"   />
             </div>
             <br />
             <br />
             <div class="gridview">
-                <asp:GridView ID="grdattendance" runat="server" AutoGenerateColumns="false" width="95%">
+                <asp:GridView ID="grdattendance" runat="server" AutoGenerateColumns="false" width="95%"  CssClass="table table-bordered  table-hover table-primary ">
 
                     <Columns>
                         <asp:BoundField DataField="Name" HeaderText="Name" />
